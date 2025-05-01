@@ -65,13 +65,13 @@ class Pet:
             None
         """
         if self.tricks:
-            print(f"{self.name} knows the following tricks:
-                  {', '.join(self.tricks)} 🎉")
+            print(f"{self.name} knows the following tricks: {', '.join(self.tricks)} 🎉")
         else:
             print(f"{self.name} doesn't know any tricks yet.")
-
+            
     def get_status(self):
-        """Display the current status of the pet.
+        """
+        Display the current status of the pet.
         This includes hunger, energy, happiness, and learned tricks.
         Args:
             None
